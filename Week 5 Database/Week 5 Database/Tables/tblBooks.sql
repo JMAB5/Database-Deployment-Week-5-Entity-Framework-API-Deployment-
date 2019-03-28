@@ -4,5 +4,6 @@
     [AuthorFirstName] NCHAR(30) NULL, 
     [AuthorLastName] NCHAR(30) NULL, 
     [AuthorTFN] NCHAR(30) NULL,
-	Constraint PK_tblBooks Primary Key (AuthorID, AuthorFirstName, AuthorLastName, AuthorTFN) 
+    Constraint PK_tblBooks Primary Key (AuthorID) 
+	
 )

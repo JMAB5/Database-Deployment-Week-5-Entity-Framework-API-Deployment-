@@ -42,4 +42,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Author ID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="ce98f00e-f609-43de-9606-698899ce8ef4" ChangeDateTime="03/28/2019 00:14:10">
+    <Property Name="ElementName" Value="[dbo].[tblBooks].[Year Published]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblBooks]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="YearPublished" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c1144fef-8278-4d2a-b2e5-4adb892d3d2b" ChangeDateTime="03/28/2019 00:23:35">
+    <Property Name="ElementName" Value="[dbo].[tblBorrows].[StudentID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblBorrows]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TitleID" />
+  </Operation>
 </Operations>

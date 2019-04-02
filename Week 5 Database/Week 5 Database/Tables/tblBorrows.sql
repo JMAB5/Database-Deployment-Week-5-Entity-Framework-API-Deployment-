@@ -1,8 +1,10 @@
 ﻿CREATE TABLE [dbo].[tblBorrows]
 (
-	[TitleID] INT NOT NULL PRIMARY KEY, 
-    [ISBN] NVARCHAR(30) NULL, 
-	[YearPublished] NCHAR(30) NULL, 
-    Constraint PK_tblBorrows PRIMARY KEY ([TitleID]),
-	Constraint FK_tblBorrows_Student FOREIGN KEY ([TitleID]) REFERENCES tblStudents(StudentID),
-	)
+    [BorrowID] INT IDENTITY (1,1) NOT NULL, 
+    [StudentID] NVARCHAR(10) NOT NULL, 
+    [ISBN] NVARCHAR(17) NOT NULL, 
+	[DateDue] DATE NULL,
+    CONSTRAINT [FK_tblBorrows_ToTblBooks] FOREIGN KEY ([ISBN]) REFERENCES [tblBooks]([ISBN]), 
+    CONSTRAINT [FK_tblBorrows_ToTblStudents] FOREIGN KEY ([StudentID]) REFERENCES [tblStudents]([StudentID]), 
+    CONSTRAINT [PK_tblBorrows] PRIMARY KEY ([BorrowID]), 
+    )

@@ -1,9 +1,12 @@
 ﻿CREATE TABLE [dbo].[tblBooks]
 (
-	[AuthorID] INT NOT NULL PRIMARY KEY, 
-    [AuthorFirstName] NCHAR(30) NULL, 
-    [AuthorLastName] NCHAR(30) NULL, 
-    [AuthorTFN] NCHAR(30) NULL,
-    Constraint PK_tblBooks Primary Key (AuthorID) 
-	
+	[ISBN] NVARCHAR(17) NOT NULL PRIMARY KEY, 
+    [Title] NCHAR(20) NULL, 
+    [YearPublished] INT NULL, 
+    [AuthorID] NVARCHAR(5) NULL, 
+    [AuthorFirstName] NVARCHAR(10) NULL, 
+    [AuthorLastName] NVARCHAR(10) NULL, 
+    [AuthorTFN] NVARCHAR(10) NULL
 )
+
+

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Week 5 Database", "Week 5 Database\Week 5 Database.sqlproj", "{882E664C-8EB6-4F20-B176-CB1811FE0DC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5WebApplication", "Week 5 Web Application\Week5WebApplication.csproj", "{3C63834F-C3BE-4FD6-81B7-830C410A8ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{882E664C-8EB6-4F20-B176-CB1811FE0DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{882E664C-8EB6-4F20-B176-CB1811FE0DC0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{882E664C-8EB6-4F20-B176-CB1811FE0DC0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3C63834F-C3BE-4FD6-81B7-830C410A8ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C63834F-C3BE-4FD6-81B7-830C410A8ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C63834F-C3BE-4FD6-81B7-830C410A8ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C63834F-C3BE-4FD6-81B7-830C410A8ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
